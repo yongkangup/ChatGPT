@@ -4,24 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b0a9a4e3-9e59-4ed5-a1ff-6b883ce72dd4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chatbot-api-aaplication/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chatbot-api-aaplication/src/main/java/com/nwpu/packageInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chatbot-api-domain/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chatbot-api-domain/src/main/java/com/nwpu/packageInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chatbot-api-infrastructure/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chatbot-api-infrastructure/src/main/java/com/nwpu/packageInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chatbot-api-interfaces/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chatbot-api-interfaces/src/main/java/com/nwpu/ApiApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chatbot-api-interfaces/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-    </list>
+    <list default="true" id="b0a9a4e3-9e59-4ed5-a1ff-6b883ce72dd4" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -97,11 +80,34 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1693056332804</updated>
-      <workItem from="1693056333974" duration="1969000" />
+      <workItem from="1693056333974" duration="2330000" />
     </task>
+    <task id="LOCAL-00001" summary="chatgpt inti">
+      <created>1693058449028</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1693058449028</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="chatgpt inti" />
+    <option name="LAST_COMMIT_MESSAGE" value="chatgpt inti" />
   </component>
 </project>
