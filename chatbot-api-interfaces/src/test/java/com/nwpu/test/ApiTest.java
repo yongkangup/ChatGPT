@@ -49,7 +49,7 @@ public class ApiTest {
 
         String paramJson = "{\n" +
                 "  \"req_data\": {\n" +
-                "    \"text\": \"自己去百度！\\n\",\n" +
+                "    \"text\": \"自己去百度吧！\\n\",\n" +
                 "    \"image_ids\": [],\n" +
                 "    \"silenced\": false\n" +
                 "  }\n" +
