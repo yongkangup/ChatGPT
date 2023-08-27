@@ -58,14 +58,14 @@
         <dependency>
             <groupId>org.testng</groupId>
             <artifactId>testng</artifactId>
-            <version>RELEASE</version>
+            <version>6.14.3</version>
             <scope>test</scope>
         </dependency>
-        <!-- https://mvnrepository.com/artifact/net.sf.json-lib/json-lib -->
+
         <dependency>
             <groupId>net.sf.json-lib</groupId>
             <artifactId>json-lib</artifactId>
-            <classifier>jdk8</classifier><!-- jdk版本 -->
+            <classifier>jdk15</classifier><!-- jdk版本 -->
         </dependency>
         <!-- https://mvnrepository.com/artifact/cn.hutool/hutool-all -->
         <dependency>
