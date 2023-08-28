@@ -1,5 +1,7 @@
 package com.nwpu.test;
 
+import org.apache.hc.client5.http.config.RequestConfig;
+import org.apache.http.HttpHost;
 import org.apache.http.HttpStatus;
 import org.apache.http.client.methods.CloseableHttpResponse;
 import org.apache.http.client.methods.HttpGet;
@@ -8,6 +10,7 @@ import org.apache.http.entity.ContentType;
 import org.apache.http.entity.StringEntity;
 import org.apache.http.impl.client.CloseableHttpClient;
 import org.apache.http.impl.client.HttpClientBuilder;
+import org.apache.http.impl.client.HttpClients;
 import org.apache.http.util.EntityUtils;
 import org.junit.Test;
 
@@ -41,9 +44,10 @@ public class ApiTest {
 
     @Test
     public void answer() throws IOException {
+
         CloseableHttpClient httpClient = HttpClientBuilder.create().build();
 
-        HttpPost post = new HttpPost("https://api.zsxq.com/v2/topics/188515218854142/answer");
+        HttpPost post = new HttpPost("https://api.zsxq.com/v2/groups/48884215821248/topics?scope=unanswered_questions&count=20");
         post.addHeader("cookie", "zsxq_access_token=F7CE9936-3AC5-EC8D-61C5-66D62DA2A4EE_8918E3FD55884658; sensorsdata2015jssdkcross=%7B%22distinct_id%22%3A%2218a2698cff2cbd-0d2cbd1158fc47-26031f51-2073600-18a2698cff3cd5%22%2C%22first_id%22%3A%22%22%2C%22props%22%3A%7B%22%24latest_traffic_source_type%22%3A%22%E5%BC%95%E8%8D%90%E6%B5%81%E9%87%8F%22%2C%22%24latest_search_keyword%22%3A%22%E6%9C%AA%E5%8F%96%E5%88%B0%E5%80%BC%22%2C%22%24latest_referrer%22%3A%22https%3A%2F%2Fbugstack.cn%2F%22%7D%2C%22identities%22%3A%22eyIkaWRlbnRpdHlfY29va2llX2lkIjoiMThhMjY5OGNmZjJjYmQtMGQyY2JkMTE1OGZjNDctMjYwMzFmNTEtMjA3MzYwMC0xOGEyNjk4Y2ZmM2NkNSJ9%22%2C%22history_login_id%22%3A%7B%22name%22%3A%22%22%2C%22value%22%3A%22%22%7D%2C%22%24device_id%22%3A%2218a2698cff2cbd-0d2cbd1158fc47-26031f51-2073600-18a2698cff3cd5%22%7D; abtest_env=product; zsxqsessionid=59eeb5e3a07559c9e771a3b81469bc2b");
         post.addHeader("Content-Type", "application/json;charset=utf8");
 
@@ -66,6 +70,38 @@ public class ApiTest {
             System.out.println(response.getStatusLine().getStatusCode());
         }
     }
+    @Test
+    public void test_chatGPT() throws IOException {
+
+        HttpHost proxy = new HttpHost("127.0.0.1", 7890);
+
+        CloseableHttpClient httpClient = HttpClients.custom()
+                .setProxy(proxy)
+                .build();
+
+        HttpPost post = new HttpPost("https://api.openai.com/v1/chat/completions");
+        post.addHeader("Content-Type", "application/json");
+        post.addHeader("Authorization", "Bearer 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");
+
+        String paramJson = "{\n" +
+                "     \"model\": \"gpt-3.5-turbo\",\n" +
+                "     \"messages\": [{\"role\": \"user\", \"content\": \"鲁迅是谁\"}],\n" +
+                "     \"temperature\": 0.7\n" +
+                "   }";
+
+        StringEntity stringEntity = new StringEntity(paramJson, ContentType.create("text/json", "UTF-8"));
+        post.setEntity(stringEntity);
+
+        CloseableHttpResponse response = httpClient.execute(post);
+        if (response.getStatusLine().getStatusCode() == HttpStatus.SC_OK) {
+            String res = EntityUtils.toString(response.getEntity());
+            System.out.println(res);
+        } else {
+            System.out.println(response.getStatusLine().getStatusCode());
+        }
+
+    }
+
 
 }
 

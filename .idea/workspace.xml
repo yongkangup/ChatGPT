@@ -6,8 +6,12 @@
   <component name="ChangeListManager">
     <list default="true" id="b0a9a4e3-9e59-4ed5-a1ff-6b883ce72dd4" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chatbot-api-aaplication/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/chatbot-api-aaplication/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chatbot-api-domain/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/chatbot-api-domain/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chatbot-api-domain/src/main/java/com/nwpu/packageInfo.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/chatbot-api-interfaces/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/chatbot-api-interfaces/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chatbot-api-interfaces/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/chatbot-api-interfaces/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chatbot-api-interfaces/src/test/java/com/nwpu/test/ApiTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/chatbot-api-interfaces/src/test/java/com/nwpu/test/ApiTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +21,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -28,6 +33,14 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -52,6 +65,10 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -59,10 +76,15 @@
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="com.gitee.ui.GiteeSettingsConfigurable" />
+    <property name="settings.editor.selected.configurable" value="Docker" />
   </component>
-  <component name="RunManager" selected="JUnit.ApiTest">
-    <configuration name="ApiTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.nwpu.domain" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.ApiTest.test_chatGPT">
+    <configuration name="ApiTest.answer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="chatbot-api-interfaces" />
       <extension name="coverage">
         <pattern>
@@ -72,25 +94,52 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.nwpu.test" />
       <option name="MAIN_CLASS_NAME" value="com.nwpu.test.ApiTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="METHOD_NAME" value="answer" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ApiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+    <configuration name="ApiTest.test_chatGPT" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="chatbot-api-interfaces" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.nwpu.*" />
+          <option name="PATTERN" value="com.nwpu.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.nwpu.test" />
+      <option name="MAIN_CLASS_NAME" value="com.nwpu.test.ApiTest" />
+      <option name="METHOD_NAME" value="test_chatGPT" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringBootRunTest.test_zsxq" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="chatbot-api-domain" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.nwpu.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.nwpu.test" />
+      <option name="MAIN_CLASS_NAME" value="com.nwpu.test.SpringBootRunTest" />
+      <option name="METHOD_NAME" value="test_zsxq" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ApiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="chatbot-api-interfaces" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.nwpu.ApiApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ApiTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="SpringBootRunTest.test_openAi" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="chatbot-api-interfaces" />
       <extension name="coverage">
         <pattern>
@@ -99,15 +148,16 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.nwpu.test" />
-      <option name="MAIN_CLASS_NAME" value="com.nwpu.test.ApiTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="MAIN_CLASS_NAME" value="com.nwpu.test.SpringBootRunTest" />
+      <option name="METHOD_NAME" value="test_openAi" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ApiTest.query_unanswered_questions" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="SpringBootRunTest.test_zsxq" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="chatbot-api-interfaces" />
       <extension name="coverage">
         <pattern>
@@ -116,8 +166,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.nwpu.test" />
-      <option name="MAIN_CLASS_NAME" value="com.nwpu.test.ApiTest" />
-      <option name="METHOD_NAME" value="query_unanswered_questions" />
+      <option name="MAIN_CLASS_NAME" value="com.nwpu.test.SpringBootRunTest" />
+      <option name="METHOD_NAME" value="test_zsxq" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -127,10 +177,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ApiTest" />
-        <item itemvalue="TestNG.ApiTest" />
-        <item itemvalue="TestNG.ApiTest.query_unanswered_questions" />
-        <item itemvalue="Spring Boot.ApiApplication" />
+        <item itemvalue="JUnit.ApiTest.test_chatGPT" />
+        <item itemvalue="TestNG.SpringBootRunTest.test_openAi" />
+        <item itemvalue="JUnit.ApiTest.answer" />
+        <item itemvalue="TestNG.SpringBootRunTest.test_zsxq" />
+        <item itemvalue="JUnit.SpringBootRunTest.test_zsxq" />
       </list>
     </recent_temporary>
   </component>
@@ -158,7 +209,14 @@
       <option name="project" value="LOCAL" />
       <updated>1693058730704</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="master 合并分支">
+      <created>1693106929298</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1693106929298</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -169,7 +227,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -177,6 +247,17 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="chatgpt inti" />
-    <option name="LAST_COMMIT_MESSAGE" value="chatgpt inti" />
+    <MESSAGE value="master 合并分支" />
+    <option name="LAST_COMMIT_MESSAGE" value="master 合并分支" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang" />
+          <option name="timeStamp" value="6" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
