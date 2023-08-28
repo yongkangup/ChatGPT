@@ -1,0 +1,128 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"b0a9a4e3-9e59-4ed5-a1ff-6b883ce72dd4\" name=\"Changes\" comment=\"\">\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/README.md\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/README.md\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/chatbot-api-interfaces/pom.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/chatbot-api-interfaces/pom.xml\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Class\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\r\n      <map>\r\n        <entry key=\"$PROJECT_DIR$\" value=\"master\" />\r\n      </map>\r\n    </option>\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"MarkdownSettingsMigration\">\r\n    <option name=\"stateVersion\" value=\"1\" />\r\n  </component>\r\n  <component name=\"MavenImportPreferences\">\r\n    <option name=\"generalSettings\">\r\n      <MavenGeneralSettings>\r\n        <option name=\"mavenHome\" value=\"C:/dev/maven/apache-maven-3.3.9\" />\r\n        <option name=\"userSettingsFile\" value=\"C:\\dev\\maven\\apache-maven-3.3.9\\conf\\settings.xml\" />\r\n      </MavenGeneralSettings>\r\n    </option>\r\n  </component>\r\n  <component name=\"MavenRunner\">\r\n    <option name=\"jreName\" value=\"#JAVA_HOME\" />\r\n    <option name=\"vmOptions\" value=\"-DarchetypeCatalog=internal\" />\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"2UWXUvpV5NChXGJwHjhCjt3aoUm\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\">\r\n    <ConfirmationsSetting value=\"1\" id=\"Add\" />\r\n  </component>\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">\r\n    <property name=\"RunOnceActivity.OpenProjectViewOnStart\" value=\"true\" />\r\n    <property name=\"RunOnceActivity.ShowReadmeOnStart\" value=\"true\" />\r\n    <property name=\"WebServerToolWindowFactoryState\" value=\"false\" />\r\n    <property name=\"node.js.detected.package.eslint\" value=\"true\" />\r\n    <property name=\"node.js.detected.package.tslint\" value=\"true\" />\r\n    <property name=\"node.js.selected.package.eslint\" value=\"(autodetect)\" />\r\n    <property name=\"node.js.selected.package.tslint\" value=\"(autodetect)\" />\r\n    <property name=\"settings.editor.selected.configurable\" value=\"com.gitee.ui.GiteeSettingsConfigurable\" />\r\n  </component>\r\n  <component name=\"RunManager\" selected=\"JUnit.ApiTest\">\r\n    <configuration name=\"ApiTest\" type=\"JUnit\" factoryName=\"JUnit\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"chatbot-api-interfaces\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"com.nwpu.test.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <option name=\"PACKAGE_NAME\" value=\"com.nwpu.test\" />\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"com.nwpu.test.ApiTest\" />\r\n      <option name=\"TEST_OBJECT\" value=\"class\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"ApiApplication\" type=\"SpringBootApplicationConfigurationType\" factoryName=\"Spring Boot\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"chatbot-api-interfaces\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"com.nwpu.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <option name=\"SPRING_BOOT_MAIN_CLASS\" value=\"com.nwpu.ApiApplication\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"ApiTest\" type=\"TestNG\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"chatbot-api-interfaces\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"com.nwpu.test.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <option name=\"PACKAGE_NAME\" value=\"com.nwpu.test\" />\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"com.nwpu.test.ApiTest\" />\r\n      <option name=\"TEST_OBJECT\" value=\"CLASS\" />\r\n      <properties />\r\n      <listeners />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"ApiTest.query_unanswered_questions\" type=\"TestNG\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"chatbot-api-interfaces\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"com.nwpu.test.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <option name=\"PACKAGE_NAME\" value=\"com.nwpu.test\" />\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"com.nwpu.test.ApiTest\" />\r\n      <option name=\"METHOD_NAME\" value=\"query_unanswered_questions\" />\r\n      <option name=\"TEST_OBJECT\" value=\"METHOD\" />\r\n      <properties />\r\n      <listeners />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <recent_temporary>\r\n      <list>\r\n        <item itemvalue=\"JUnit.ApiTest\" />\r\n        <item itemvalue=\"TestNG.ApiTest\" />\r\n        <item itemvalue=\"TestNG.ApiTest.query_unanswered_questions\" />\r\n        <item itemvalue=\"Spring Boot.ApiApplication\" />\r\n      </list>\r\n    </recent_temporary>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"b0a9a4e3-9e59-4ed5-a1ff-6b883ce72dd4\" name=\"Changes\" comment=\"\" />\r\n      <created>1693056332804</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1693056332804</updated>\r\n      <workItem from=\"1693056333974\" duration=\"10404000\" />\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"chatgpt inti\">\r\n      <created>1693058449028</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1693058449028</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"chatgpt inti\">\r\n      <created>1693058730704</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1693058730704</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"3\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"chatgpt inti\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"chatgpt inti\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	
++++ b/.idea/workspace.xml	
+@@ -6,8 +6,6 @@
+   <component name="ChangeListManager">
+     <list default="true" id="b0a9a4e3-9e59-4ed5-a1ff-6b883ce72dd4" name="Changes" comment="">
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/chatbot-api-interfaces/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/chatbot-api-interfaces/pom.xml" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -61,7 +59,7 @@
+     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+     <property name="settings.editor.selected.configurable" value="com.gitee.ui.GiteeSettingsConfigurable" />
+   </component>
+-  <component name="RunManager" selected="JUnit.ApiTest">
++  <component name="RunManager" selected="JUnit.ApiTest.answer">
+     <configuration name="ApiTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+       <module name="chatbot-api-interfaces" />
+       <extension name="coverage">
+@@ -77,15 +75,34 @@
+         <option name="Make" enabled="true" />
+       </method>
+     </configuration>
+-    <configuration name="ApiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
++    <configuration name="ApiTest.answer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+       <module name="chatbot-api-interfaces" />
+       <extension name="coverage">
+         <pattern>
+-          <option name="PATTERN" value="com.nwpu.*" />
++          <option name="PATTERN" value="com.nwpu.test.*" />
+           <option name="ENABLED" value="true" />
+         </pattern>
+       </extension>
+-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.nwpu.ApiApplication" />
++      <option name="PACKAGE_NAME" value="com.nwpu.test" />
++      <option name="MAIN_CLASS_NAME" value="com.nwpu.test.ApiTest" />
++      <option name="METHOD_NAME" value="answer" />
++      <option name="TEST_OBJECT" value="method" />
++      <method v="2">
++        <option name="Make" enabled="true" />
++      </method>
++    </configuration>
++    <configuration name="ApiTest.query_unanswered_questions" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
++      <module name="chatbot-api-interfaces" />
++      <extension name="coverage">
++        <pattern>
++          <option name="PATTERN" value="com.nwpu.test.*" />
++          <option name="ENABLED" value="true" />
++        </pattern>
++      </extension>
++      <option name="PACKAGE_NAME" value="com.nwpu.test" />
++      <option name="MAIN_CLASS_NAME" value="com.nwpu.test.ApiTest" />
++      <option name="METHOD_NAME" value="query_unanswered_questions" />
++      <option name="TEST_OBJECT" value="method" />
+       <method v="2">
+         <option name="Make" enabled="true" />
+       </method>
+@@ -127,10 +144,11 @@
+     </configuration>
+     <recent_temporary>
+       <list>
++        <item itemvalue="JUnit.ApiTest.answer" />
++        <item itemvalue="JUnit.ApiTest.query_unanswered_questions" />
+         <item itemvalue="JUnit.ApiTest" />
+         <item itemvalue="TestNG.ApiTest" />
+         <item itemvalue="TestNG.ApiTest.query_unanswered_questions" />
+-        <item itemvalue="Spring Boot.ApiApplication" />
+       </list>
+     </recent_temporary>
+   </component>
+@@ -142,7 +160,7 @@
+       <option name="number" value="Default" />
+       <option name="presentableId" value="Default" />
+       <updated>1693056332804</updated>
+-      <workItem from="1693056333974" duration="10404000" />
++      <workItem from="1693056333974" duration="12898000" />
+     </task>
+     <task id="LOCAL-00001" summary="chatgpt inti">
+       <created>1693058449028</created>
+@@ -158,7 +176,28 @@
+       <option name="project" value="LOCAL" />
+       <updated>1693058730704</updated>
+     </task>
+-    <option name="localTasksCounter" value="3" />
++    <task id="LOCAL-00003" summary="chatgpt inti">
++      <created>1693103782977</created>
++      <option name="number" value="00003" />
++      <option name="presentableId" value="LOCAL-00003" />
++      <option name="project" value="LOCAL" />
++      <updated>1693103782977</updated>
++    </task>
++    <task id="LOCAL-00004" summary="chatgpt inti">
++      <created>1693103838167</created>
++      <option name="number" value="00004" />
++      <option name="presentableId" value="LOCAL-00004" />
++      <option name="project" value="LOCAL" />
++      <updated>1693103838167</updated>
++    </task>
++    <task id="LOCAL-00005" summary="chatgpt zsxq-api">
++      <created>1693104837433</created>
++      <option name="number" value="00005" />
++      <option name="presentableId" value="LOCAL-00005" />
++      <option name="project" value="LOCAL" />
++      <updated>1693104837433</updated>
++    </task>
++    <option name="localTasksCounter" value="6" />
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">
+@@ -177,6 +216,7 @@
+   </component>
+   <component name="VcsManagerConfiguration">
+     <MESSAGE value="chatgpt inti" />
+-    <option name="LAST_COMMIT_MESSAGE" value="chatgpt inti" />
++    <MESSAGE value="chatgpt zsxq-api" />
++    <option name="LAST_COMMIT_MESSAGE" value="chatgpt zsxq-api" />
+   </component>
+ </project>
+\ No newline at end of file
